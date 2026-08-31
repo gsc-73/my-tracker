@@ -1,0 +1,12 @@
+{
+  "appId": "com.gsc73.mytracker",
+  "appName": "My Tracker",
+  "webDir": "www",
+  "server": {
+    "url": "https://gsc-73.github.io/Study_tracker/",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
