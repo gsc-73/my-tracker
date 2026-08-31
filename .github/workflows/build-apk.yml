@@ -46,6 +46,8 @@ jobs:
           cp icon-assets/icon-xxhdpi.png android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
           cp icon-assets/icon-xxxhdpi.png android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
           cp icon-assets/icon-xxxhdpi.png android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+          rm -f android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+          rm -f android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
 
       - name: Grant execute permission for gradlew
         run: chmod +x android/gradlew
